@@ -11,7 +11,7 @@ import com.mojang.brigadier.context.CommandContext;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLevelEvents;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -41,7 +41,7 @@ public class TerrainDiffusionMc implements ModInitializer {
 
         ServerLifecycleEvents.SERVER_STARTING.register(server -> LocalTerrainProvider.clearCache());
 
-        ServerWorldEvents.LOAD.register((server, world) -> {
+        ServerLevelEvents.LOAD.register((server, world) -> {
             if (world.dimension() == Level.OVERWORLD) {
                 WorldScaleManager.initializeForWorld(world);
                 LocalTerrainProvider.init(world.getSeed());

@@ -4,6 +4,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.world.level.saveddata.SavedData;
 import net.minecraft.world.level.saveddata.SavedDataType;
+import net.minecraft.resources.Identifier;
 
 /**
  * Persisted per-world settings for terrain diffusion.
@@ -35,7 +36,7 @@ public final class WorldScaleSettingsState extends SavedData {
      * Type descriptor used by the persistent state manager.
      */
     public static final SavedDataType<WorldScaleSettingsState> TYPE =
-            new SavedDataType<>("terrain_diffusion_world_settings", WorldScaleSettingsState::createDefault, CODEC, null);
+            new SavedDataType<>(Identifier.fromNamespaceAndPath("terrain-diffusion-mc", "terrain_diffusion_world_settings"), WorldScaleSettingsState::createDefault, CODEC, null);
 
     /**
      * Returns the currently persisted world scale.
