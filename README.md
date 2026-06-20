@@ -1,3 +1,11 @@
+> **Unofficial Minecraft 26.1.2 Port:**  
+> This fork/branch contains a working port of Terrain Diffusion MC for Minecraft/Fabric **26.1.2**. See [`PORT_26.1.2.md`](PORT_26.1.2.md) for status, tested setup, and notes.
+
+
+
+
+
+
 # Terrain Diffusion Fabric Mod [[Modrinth]](https://modrinth.com/mod/terrain-diffusion)
 
 #### UPDATE: The research behind this mod has been accepted to SIGGRAPH 2026, the world's premier graphics conference! That means the research was officially peer reviewed and recognized as a significant contribution to the field. Enjoy the mod!
