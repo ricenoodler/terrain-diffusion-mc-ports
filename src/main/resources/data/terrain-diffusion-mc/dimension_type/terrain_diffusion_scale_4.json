@@ -1,4 +1,5 @@
 {
+  "default_clock": "minecraft:overworld",
   "ambient_light": 0.0,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
@@ -51,3 +52,4 @@
   },
   "timelines": "#minecraft:in_overworld"
 }
+
