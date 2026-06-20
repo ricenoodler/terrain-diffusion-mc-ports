@@ -1,6 +1,11 @@
-> **Unofficial Minecraft 26.1.2 Port:**  
-> This fork/branch contains a working port of Terrain Diffusion MC for Minecraft/Fabric **26.1.2**. See [`PORT_26.1.2.md`](PORT_26.1.2.md) for status, tested setup, and notes.
-> Original project by xandergos: [`xandergos/terrain-diffusion-mc`](https://github.com/xandergos/terrain-diffusion-mc). This fork is not an official upstream release.
+> **Unofficial Minecraft Ports:**  
+> This fork contains unofficial working ports of Terrain Diffusion MC.
+>
+> Available branches/releases:
+> - Minecraft 26.1.2: `mc-26.1.2-port`
+> - Minecraft 26.2: `mc-26.2-port`
+>
+> See `PORT_26.1.2.md` and `PORT_26.2.md` for status, tested setup, and notes.
 
 
 
