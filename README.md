@@ -1,6 +1,6 @@
 > **Unofficial Minecraft 26.1.2 Port:**  
 > This fork/branch contains a working port of Terrain Diffusion MC for Minecraft/Fabric **26.1.2**. See [`PORT_26.1.2.md`](PORT_26.1.2.md) for status, tested setup, and notes.
-
+> Original project by xandergos: [`xandergos/terrain-diffusion-mc`](https://github.com/xandergos/terrain-diffusion-mc). This fork is not an official upstream release.
 
 
 
@@ -14,7 +14,7 @@ This is a Minecraft Fabric mod integrating [Terrain Diffusion](https://github.co
 
 ## Which version should I use?
 
-Three builds are available on the [Releases](https://github.com/xandergos/terrain-diffusion-mc/releases) page:
+Three builds are available on the [Releases](https://github.com/ricenoodler/terrain-diffusion-mc-26-1-2/releases) page:
 
 **The CPU build is slow unless you are on MacOS.**
 
@@ -39,7 +39,7 @@ Use the `-cuda` build only if you are on Linux, or have an NVIDIA GPU and prefer
 
 **If using CUDA build:** First see [CUDA_INSTALL.md](CUDA_INSTALL.md).
 
-1. Download the mod jar from [Releases](https://github.com/xandergos/terrain-diffusion-mc/releases) for your Minecraft version and place it in your Minecraft `mods/` folder. Make sure the Minecraft version matches.
+1. Download the mod jar from [Releases](https://github.com/ricenoodler/terrain-diffusion-mc-26-1-2/releases) for your Minecraft version and place it in your Minecraft `mods/` folder. Make sure the Minecraft version matches.
 2. Launch Minecraft, at least once online to download the models (~2.5GB).
 3. Create a world, and select the **Terrain Diffusion** world type. Click **Customize** to set the `World Scale` (see [Per-world settings](#per-world-settings) below).
 4. The mod will search for a land spawn point near the world origin automatically. If the area around (0, 0) is entirely ocean, it may take a moment to find land. Use `/td-explore` (see below) to scout the world further.
@@ -110,7 +110,7 @@ This is typically due to an improper CUDA or cuDNN installation. See [CUDA_INSTA
 This typically indicates an "out of memory" error (the logs should show this as well).
 Terrain Diffusion's models take up about 2.5GB of RAM, so make sure to allocate enough RAM to account for this.
 
-**If your issue is still not resolved, please [raise it here](https://github.com/xandergos/terrain-diffusion-mc/issues/new).**
+**If your issue is with this unofficial 26.1.2 port, please [raise it here](https://github.com/ricenoodler/terrain-diffusion-mc-26-1-2/issues/new).**
 
 ## Building from Source
 
