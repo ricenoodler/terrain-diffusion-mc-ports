@@ -102,8 +102,8 @@ public class TerrainDiffusionDensityFunction implements DensityFunction {
     }
 
     @Override
-    public DensityFunction mapAll(DensityFunction.Visitor visitor) {
-        return visitor.apply(this);
+    public DensityFunction mapChildren(DensityFunction.Visitor visitor) {
+        return this;
     }
 
     @Override
