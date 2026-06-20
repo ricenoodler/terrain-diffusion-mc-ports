@@ -1,11 +1,11 @@
-> **Unofficial Minecraft Ports:**  
+> **Unofficial Minecraft Ports:**
 > This fork contains unofficial working ports of Terrain Diffusion MC.
 >
 > Available branches/releases:
-> - Minecraft 26.1.2: `mc-26.1.2-port`
-> - Minecraft 26.2: `mc-26.2-port`
+> * Minecraft 26.1.2: [`mc-26.1.2-port`](../../tree/mc-26.1.2-port)
+> * Minecraft 26.2: [`mc-26.2-port`](../../tree/mc-26.2-port)
 >
-> See `PORT_26.1.2.md` and `PORT_26.2.md` for status, tested setup, and notes.
+> See [`PORT_26.1.2.md`](PORT_26.1.2.md) and [`PORT_26.2.md`](PORT_26.2.md) for status, tested setup, and notes.
 
 
 
